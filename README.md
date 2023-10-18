@@ -6,9 +6,9 @@ Add elastic certs to kibana directory;<br>
 Install logstash;<br>
 Add input.conf, output.conf to /etc/logstash/conf.d/;<br>
 Add 01-json-template.conf, ssh.conf to /etc/rsyslog.d/<br>
-sudo systemctl restart rsyslog.service
-sudo systemctl restart logstash
-Open kibana https://elk.fat123.keenetic.pro
+sudo systemctl restart rsyslog.service<br>
+sudo systemctl restart logstash<br>
+Open kibana https://elk.fat123.keenetic.pro<br>
 Management -> Index Management -> ssh_logs_for_elastic-2023.10 -> <br>
 -> ManageIndex -> Add lifecycle policy -> logs -> <br>
 -> Analytics -> Discover -> ssh_logs_for_elastic-2023.10 -> <br>
