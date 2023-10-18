@@ -1,5 +1,5 @@
 # dz6
-rsyslog->logstash->kibana<br>
+<b>rsyslog->logstash->kibana</b><br>
 Install elasticsearch;<br>
 Install kibana;<br>
 Add elastic certs to kibana directory;<br>
